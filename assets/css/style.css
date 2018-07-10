@@ -2,14 +2,43 @@
 
 body {
   padding-top: 54px;
+  background-color: #F0C987;
+  color:white;
 }
 
 @media (min-width: 992px) {
   body {
-    padding-top: 56px;
+    padding-top: 90px;
   }
 }
 
 .pagination {
   margin-bottom: 15px;
+}
+
+p {
+  Font-Family: 'Quattrocento', Serif;
+Font-Size: 16px;
+}
+/* 
+h1 {
+  Font-Family: 'Oswald', Sans-Serif;
+Font-Size: 48px;
+} */
+
+.navbar-brand {
+  Font-Family: 'Oswald', Sans-Serif;
+  Font-Size: 48px;
+}
+
+h3 {
+  Font-Family: 'Oswald', Sans-Serif;
+color: white;
+}
+
+.navbar {
+  background-color: #D4D2A5 !important;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
