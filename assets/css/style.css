@@ -45,7 +45,7 @@ color: #5B5941;
 
 .btn {
   background-color: #87B6A7 !important;
-  border: #87B6A7 !important;
+  border-color: #87B6A7 !important;
 }
 
 .prof-img {
@@ -71,3 +71,21 @@ footer {
   margin-right:auto;
   display:block;
 }
+
+.contact-big {
+  font-family: 'Concert One', cursive;
+  font-size: 80px;
+  float: right;
+}
+
+.contact {
+  border: thick;
+  border-color: black;
+  border-style: solid;
+}
+
+.contact-row {
+padding-bottom: 10px;
+}
+
+
