@@ -65,3 +65,9 @@ color: #5B5941;
 footer {
   background-color: #7F7F7F !important;
 }
+
+.center-block {
+  margin-left:auto;
+  margin-right:auto;
+  display:block;
+}
