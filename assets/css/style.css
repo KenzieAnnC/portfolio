@@ -51,3 +51,16 @@ color: #5B5941;
 .prof-img {
   border-radius: 8px;
 }
+
+.first-character {
+  float: left;
+  font-family: 'Vidaloka', serif;
+  font-size: 110px;
+  line-height: 60px;
+  /* padding-top: 4px; */
+  padding-right: 4px;
+  padding-left: 3px;
+}
+
+font-family: 'Abril Fatface', cursive;
+font-family: 'Vidaloka', serif;
