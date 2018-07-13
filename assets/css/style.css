@@ -76,24 +76,43 @@ footer {
   font-family: 'Concert One', cursive;
   font-size: 80px;
   float: right;
+  /* border-color: black !important;
+  border: 3px solid;
+  border-radius: 25px; */
+  padding: 0px 10px;
+  letter-spacing: -5px;
 }
 
-.contact {
+.arrow-phone {
+  font-family: 'Concert One', cursive;
+  font-size: 60px;
+}
+
+.arrow-phone:hover + .show {
+  display: block;
+}
+
+.show {
+  display: none;
+}
+
+/* .contact {
   border: thick;
   border-color: black;
   border-style: solid;
-}
+} */
 
 .contact-row {
-padding-bottom: 10px;
+padding-bottom: -10px;
 }
 
 .arrow {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+ color: #87B6A7;
 }
 
+.arrow:hover, .arrow:active {
+  font-size: 600%;
+}
 
 .contact-small {
   display: flex;
