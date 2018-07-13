@@ -17,24 +17,32 @@ body {
 }
 
 p {
-  Font-Family: 'Quattrocento', Serif;
-Font-Size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  Font-Size: 15px;
 }
 
+.projects {
+  font-family: 'Concert One', cursive;
+  letter-spacing: -3PX;
+  font-size: 50px;
+}
 
 .navbar-brand {
-  Font-Family: 'Oswald', Sans-Serif;
+  font-family: 'Concert One', cursive;
   Font-Size: 48px;
+  letter-spacing: -5PX;
 }
 
 h3 {
-  Font-Family: 'Oswald', Sans-Serif;
-color: #5B5941;
+  font-family: 'Montserrat', sans-serif;
+  color: #5B5941;
+ 
 }
 
 .navbar {
   background-color: #F7B99E !important;
   border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
   padding: 15px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -77,7 +85,7 @@ footer {
   font-size: 80px;
   float: right;
   padding: 0px 10px;
-  letter-spacing: -5px;
+  letter-spacing: -7px;
 }
 .contact-small {
   display: flex;
