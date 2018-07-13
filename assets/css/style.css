@@ -22,7 +22,7 @@ p {
   letter-spacing: -0.5px;
 }
 
-.description {
+.desc {
   float: right;
   text-align: right;
 }
@@ -35,6 +35,7 @@ p {
 
 .project-desc {
   padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .navbar-brand {
