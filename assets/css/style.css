@@ -19,12 +19,22 @@ body {
 p {
   font-family: 'Montserrat', sans-serif;
   Font-Size: 15px;
+  letter-spacing: -0.5px;
+}
+
+.description {
+  float: right;
+  text-align: right;
 }
 
 .projects {
   font-family: 'Concert One', cursive;
   letter-spacing: -3PX;
   font-size: 50px;
+}
+
+.project-desc {
+  padding-top: 30px;
 }
 
 .navbar-brand {
@@ -36,13 +46,16 @@ p {
 h3 {
   font-family: 'Montserrat', sans-serif;
   color: #5B5941;
- 
+  letter-spacing: -3px;
+  float: right;
+  font-size: 40px;
 }
 
 .navbar {
   background-color: #F7B99E !important;
   border-radius: 10px;
   font-family: 'Montserrat', sans-serif;
+  letter-spacing: -1px;
   padding: 15px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -54,15 +67,18 @@ h3 {
 .btn {
   background-color: #87B6A7 !important;
   border-color: #87B6A7 !important;
+  letter-spacing: -1px;
+  float: right;
+  margin: 1px;
 }
 
 .prof-img {
-  border-radius: 8px;
+  border-radius: 10px;
 }
 
 .first-character {
   float: left;
-  font-family: 'Vidaloka', serif;
+  font-family: 'Rubik', sans-serif;
   font-size: 110px;
   line-height: 60px;
   /* padding-top: 4px; */
