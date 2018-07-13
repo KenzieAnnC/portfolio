@@ -83,24 +83,24 @@ footer {
   letter-spacing: -5px;
 }
 
-.arrow-phone {
-  font-family: 'Concert One', cursive;
+.arrowphn {
   font-size: 60px;
+  color: #87B6A7;
 }
 
-.arrow-phone:hover + .show {
+.arrowphn:hover + .show {
   display: block;
 }
 
+
 .show {
   display: none;
+  padding-left: 10px;
 }
 
-/* .contact {
-  border: thick;
-  border-color: black;
-  border-style: solid;
-} */
+.arrowphn:hover, .arrowphn:active {
+  font-size: 600%;
+}
 
 .contact-row {
 padding-bottom: -10px;
